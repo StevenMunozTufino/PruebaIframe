@@ -17,6 +17,7 @@ app.set('port', port);
 app.use('/boletines', require('./recursos/boletines'));
 app.use('/archivos', require('./recursos/archivos'));
 app.use('/juicios', require('./recursos/juicios'));
+app.use('/detalles', require('./recursos/detalles'));
 
 
 // Inicializar express
